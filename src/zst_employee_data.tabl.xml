@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZST_EMPLOYEE_DATA</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Employee - Data</DDTEXT>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZST_EMPLOYEE_DATA</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZST_EMPL_PERSONAL_INF</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Employee - Personal Information</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZST_EMPLOYEE_DATA</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0010</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZST_EMPL_ADDRESS</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Employee - Address</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZST_EMPLOYEE_DATA</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0018</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <REFTABLE>COM_LANG</REFTABLE>
+     <PRECFIELD>ZST_EMPL_CONTR_DATA</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Employee - Contract Data</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

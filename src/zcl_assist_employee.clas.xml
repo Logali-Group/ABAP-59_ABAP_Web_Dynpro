@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Assistance Class for ZWD_DEMO_EMPLOYEE</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>E01</KEY>
+     <ENTRY>System error. Contact with administrator</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Please select an employee to proceed</ENTRY>
+     <LENGTH>88</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S01</KEY>
+     <ENTRY>Successfully updated database</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>W01</KEY>
+     <ENTRY>Confirm clearing all data?</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>W02</KEY>
+     <ENTRY>Please confirm</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>W03</KEY>
+     <ENTRY>Save changes?</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>W04</KEY>
+     <ENTRY>Delete the employee?</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>CTEXT_BUTTON_FINISH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text button Finish</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>CTEXT_BUTTON_NEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text button Next</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>DELETE_EMPLOYEE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete employee from BBDD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>GET_EMPLOYEES_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Employees list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>GET_ROADMAP_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Roadmap Info</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>INSERT_EMPLOYEE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert employee into BBDD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ASSIST_EMPLOYEE</CLSNAME>
+     <CMPNAME>UPDATE_EMPLOYEE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update employee into BBDD</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
